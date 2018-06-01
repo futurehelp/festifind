@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33ACDFA20C0D78000D1907E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACDF920C0D78000D1907E /* AppDelegate.swift */; };
+		D33ACDFC20C0D78000D1907E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACDFB20C0D78000D1907E /* ViewController.swift */; };
+		D33ACDFF20C0D78000D1907E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33ACDFD20C0D78000D1907E /* Main.storyboard */; };
+		D33ACE0120C0D78600D1907E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33ACE0020C0D78600D1907E /* Assets.xcassets */; };
+		D33ACE0420C0D78600D1907E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33ACE0220C0D78600D1907E /* LaunchScreen.storyboard */; };
+		D33ACE0F20C0D78600D1907E /* festifindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACE0E20C0D78600D1907E /* festifindTests.swift */; };
+		D33ACE1A20C0D78600D1907E /* festifindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACE1920C0D78600D1907E /* festifindUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33ACE0B20C0D78600D1907E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33ACDEE20C0D78000D1907E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33ACDF520C0D78000D1907E;
+			remoteInfo = festifind;
+		};
+		D33ACE1620C0D78600D1907E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33ACDEE20C0D78000D1907E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33ACDF520C0D78000D1907E;
+			remoteInfo = festifind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D33ACDF620C0D78000D1907E /* festifind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = festifind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33ACDF920C0D78000D1907E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33ACDFB20C0D78000D1907E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D33ACDFE20C0D78000D1907E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33ACE0020C0D78600D1907E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33ACE0320C0D78600D1907E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D33ACE0520C0D78600D1907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33ACE0A20C0D78600D1907E /* festifindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festifindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33ACE0E20C0D78600D1907E /* festifindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = festifindTests.swift; sourceTree = "<group>"; };
+		D33ACE1020C0D78600D1907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33ACE1520C0D78600D1907E /* festifindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festifindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33ACE1920C0D78600D1907E /* festifindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = festifindUITests.swift; sourceTree = "<group>"; };
+		D33ACE1B20C0D78600D1907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33ACDF320C0D78000D1907E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33ACE0720C0D78600D1907E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33ACE1220C0D78600D1907E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33ACDED20C0D78000D1907E = {
+			isa = PBXGroup;
+			children = (
+				D33ACDF820C0D78000D1907E /* festifind */,
+				D33ACE0D20C0D78600D1907E /* festifindTests */,
+				D33ACE1820C0D78600D1907E /* festifindUITests */,
+				D33ACDF720C0D78000D1907E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33ACDF720C0D78000D1907E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33ACDF620C0D78000D1907E /* festifind.app */,
+				D33ACE0A20C0D78600D1907E /* festifindTests.xctest */,
+				D33ACE1520C0D78600D1907E /* festifindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33ACDF820C0D78000D1907E /* festifind */ = {
+			isa = PBXGroup;
+			children = (
+				D33ACDF920C0D78000D1907E /* AppDelegate.swift */,
+				D33ACDFB20C0D78000D1907E /* ViewController.swift */,
+				D33ACDFD20C0D78000D1907E /* Main.storyboard */,
+				D33ACE0020C0D78600D1907E /* Assets.xcassets */,
+				D33ACE0220C0D78600D1907E /* LaunchScreen.storyboard */,
+				D33ACE0520C0D78600D1907E /* Info.plist */,
+			);
+			path = festifind;
+			sourceTree = "<group>";
+		};
+		D33ACE0D20C0D78600D1907E /* festifindTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33ACE0E20C0D78600D1907E /* festifindTests.swift */,
+				D33ACE1020C0D78600D1907E /* Info.plist */,
+			);
+			path = festifindTests;
+			sourceTree = "<group>";
+		};
+		D33ACE1820C0D78600D1907E /* festifindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D33ACE1920C0D78600D1907E /* festifindUITests.swift */,
+				D33ACE1B20C0D78600D1907E /* Info.plist */,
+			);
+			path = festifindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33ACDF520C0D78000D1907E /* festifind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33ACE1E20C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifind" */;
+			buildPhases = (
+				D33ACDF220C0D78000D1907E /* Sources */,
+				D33ACDF320C0D78000D1907E /* Frameworks */,
+				D33ACDF420C0D78000D1907E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = festifind;
+			productName = festifind;
+			productReference = D33ACDF620C0D78000D1907E /* festifind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D33ACE0920C0D78600D1907E /* festifindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33ACE2120C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifindTests" */;
+			buildPhases = (
+				D33ACE0620C0D78600D1907E /* Sources */,
+				D33ACE0720C0D78600D1907E /* Frameworks */,
+				D33ACE0820C0D78600D1907E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33ACE0C20C0D78600D1907E /* PBXTargetDependency */,
+			);
+			name = festifindTests;
+			productName = festifindTests;
+			productReference = D33ACE0A20C0D78600D1907E /* festifindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D33ACE1420C0D78600D1907E /* festifindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33ACE2420C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifindUITests" */;
+			buildPhases = (
+				D33ACE1120C0D78600D1907E /* Sources */,
+				D33ACE1220C0D78600D1907E /* Frameworks */,
+				D33ACE1320C0D78600D1907E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33ACE1720C0D78600D1907E /* PBXTargetDependency */,
+			);
+			name = festifindUITests;
+			productName = festifindUITests;
+			productReference = D33ACE1520C0D78600D1907E /* festifindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33ACDEE20C0D78000D1907E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Andrew Gonzales";
+				TargetAttributes = {
+					D33ACDF520C0D78000D1907E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					D33ACE0920C0D78600D1907E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D33ACDF520C0D78000D1907E;
+					};
+					D33ACE1420C0D78600D1907E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D33ACDF520C0D78000D1907E;
+					};
+				};
+			};
+			buildConfigurationList = D33ACDF120C0D78000D1907E /* Build configuration list for PBXProject "festifind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33ACDED20C0D78000D1907E;
+			productRefGroup = D33ACDF720C0D78000D1907E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33ACDF520C0D78000D1907E /* festifind */,
+				D33ACE0920C0D78600D1907E /* festifindTests */,
+				D33ACE1420C0D78600D1907E /* festifindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33ACDF420C0D78000D1907E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33ACE0420C0D78600D1907E /* LaunchScreen.storyboard in Resources */,
+				D33ACE0120C0D78600D1907E /* Assets.xcassets in Resources */,
+				D33ACDFF20C0D78000D1907E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33ACE0820C0D78600D1907E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33ACE1320C0D78600D1907E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33ACDF220C0D78000D1907E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33ACDFC20C0D78000D1907E /* ViewController.swift in Sources */,
+				D33ACDFA20C0D78000D1907E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33ACE0620C0D78600D1907E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33ACE0F20C0D78600D1907E /* festifindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33ACE1120C0D78600D1907E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33ACE1A20C0D78600D1907E /* festifindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33ACE0C20C0D78600D1907E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33ACDF520C0D78000D1907E /* festifind */;
+			targetProxy = D33ACE0B20C0D78600D1907E /* PBXContainerItemProxy */;
+		};
+		D33ACE1720C0D78600D1907E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33ACDF520C0D78000D1907E /* festifind */;
+			targetProxy = D33ACE1620C0D78600D1907E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33ACDFD20C0D78000D1907E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33ACDFE20C0D78000D1907E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D33ACE0220C0D78600D1907E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33ACE0320C0D78600D1907E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33ACE1C20C0D78600D1907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D33ACE1D20C0D78600D1907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33ACE1F20C0D78600D1907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3A8MQQ56H;
+				INFOPLIST_FILE = festifind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.untitled.festifind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D33ACE2020C0D78600D1907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3A8MQQ56H;
+				INFOPLIST_FILE = festifind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.untitled.festifind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D33ACE2220C0D78600D1907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3A8MQQ56H;
+				INFOPLIST_FILE = festifindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.untitled.festifindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/festifind.app/festifind";
+			};
+			name = Debug;
+		};
+		D33ACE2320C0D78600D1907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3A8MQQ56H;
+				INFOPLIST_FILE = festifindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.untitled.festifindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/festifind.app/festifind";
+			};
+			name = Release;
+		};
+		D33ACE2520C0D78600D1907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3A8MQQ56H;
+				INFOPLIST_FILE = festifindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.untitled.festifindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = festifind;
+			};
+			name = Debug;
+		};
+		D33ACE2620C0D78600D1907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3A8MQQ56H;
+				INFOPLIST_FILE = festifindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.untitled.festifindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = festifind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33ACDF120C0D78000D1907E /* Build configuration list for PBXProject "festifind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33ACE1C20C0D78600D1907E /* Debug */,
+				D33ACE1D20C0D78600D1907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33ACE1E20C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33ACE1F20C0D78600D1907E /* Debug */,
+				D33ACE2020C0D78600D1907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33ACE2120C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33ACE2220C0D78600D1907E /* Debug */,
+				D33ACE2320C0D78600D1907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33ACE2420C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33ACE2520C0D78600D1907E /* Debug */,
+				D33ACE2620C0D78600D1907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33ACDEE20C0D78000D1907E /* Project object */;
+}
