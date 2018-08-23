@@ -1,0 +1,6 @@
+framework module Pods_festifindTests {
+  umbrella header "Pods-festifindTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

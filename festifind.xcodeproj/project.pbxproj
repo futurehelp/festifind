@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D8E56C8964AF43054C32F8 /* Pods_festifindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0271E46C90428A2372642FB /* Pods_festifindTests.framework */; };
+		7FDB50D9651EB26778BE9994 /* Pods_festifind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD4E39B08C0178FFE362BC /* Pods_festifind.framework */; };
 		D33ACDFA20C0D78000D1907E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACDF920C0D78000D1907E /* AppDelegate.swift */; };
 		D33ACDFC20C0D78000D1907E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACDFB20C0D78000D1907E /* ViewController.swift */; };
 		D33ACDFF20C0D78000D1907E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33ACDFD20C0D78000D1907E /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		D33ACE0420C0D78600D1907E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33ACE0220C0D78600D1907E /* LaunchScreen.storyboard */; };
 		D33ACE0F20C0D78600D1907E /* festifindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACE0E20C0D78600D1907E /* festifindTests.swift */; };
 		D33ACE1A20C0D78600D1907E /* festifindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACE1920C0D78600D1907E /* festifindUITests.swift */; };
+		D33ACE2920C6632100D1907E /* Festival.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ACE2820C6632100D1907E /* Festival.swift */; };
+		D3B7912020C8A51E0075586A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7911F20C8A51E0075586A /* MapViewController.swift */; };
+		F37EF85EC25614732236B40A /* Pods_festifindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6CF2DF85691CB128B89326 /* Pods_festifindUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18FB437302860E100F7039C3 /* Pods-festifindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-festifindUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-festifindUITests/Pods-festifindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C224A58EC8C08C24727AF91 /* Pods-festifindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-festifindUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-festifindUITests/Pods-festifindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CDD4E39B08C0178FFE362BC /* Pods_festifind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_festifind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6CF2DF85691CB128B89326 /* Pods_festifindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_festifindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A061FDBA70F5D62E90DC5E6B /* Pods-festifind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-festifind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-festifind/Pods-festifind.debug.xcconfig"; sourceTree = "<group>"; };
+		AE564646555AF385D7D5A2C5 /* Pods-festifindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-festifindTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-festifindTests/Pods-festifindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0271E46C90428A2372642FB /* Pods_festifindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_festifindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B5572F8BABF41E20527552 /* Pods-festifind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-festifind.release.xcconfig"; path = "Pods/Target Support Files/Pods-festifind/Pods-festifind.release.xcconfig"; sourceTree = "<group>"; };
+		C366B9460939580B889DA7A4 /* Pods-festifindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-festifindTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-festifindTests/Pods-festifindTests.release.xcconfig"; sourceTree = "<group>"; };
 		D33ACDF620C0D78000D1907E /* festifind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = festifind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33ACDF920C0D78000D1907E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D33ACDFB20C0D78000D1907E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,8 @@
 		D33ACE1520C0D78600D1907E /* festifindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = festifindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33ACE1920C0D78600D1907E /* festifindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = festifindUITests.swift; sourceTree = "<group>"; };
 		D33ACE1B20C0D78600D1907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33ACE2820C6632100D1907E /* Festival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Festival.swift; sourceTree = "<group>"; };
+		D3B7911F20C8A51E0075586A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDB50D9651EB26778BE9994 /* Pods_festifind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D8E56C8964AF43054C32F8 /* Pods_festifindTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37EF85EC25614732236B40A /* Pods_festifindUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181EBB2F799CD7B207452EA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A061FDBA70F5D62E90DC5E6B /* Pods-festifind.debug.xcconfig */,
+				C0B5572F8BABF41E20527552 /* Pods-festifind.release.xcconfig */,
+				AE564646555AF385D7D5A2C5 /* Pods-festifindTests.debug.xcconfig */,
+				C366B9460939580B889DA7A4 /* Pods-festifindTests.release.xcconfig */,
+				18FB437302860E100F7039C3 /* Pods-festifindUITests.debug.xcconfig */,
+				8C224A58EC8C08C24727AF91 /* Pods-festifindUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97A1AF3B36D476E2B7CC40C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CDD4E39B08C0178FFE362BC /* Pods_festifind.framework */,
+				C0271E46C90428A2372642FB /* Pods_festifindTests.framework */,
+				9C6CF2DF85691CB128B89326 /* Pods_festifindUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D33ACDED20C0D78000D1907E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				D33ACE0D20C0D78600D1907E /* festifindTests */,
 				D33ACE1820C0D78600D1907E /* festifindUITests */,
 				D33ACDF720C0D78000D1907E /* Products */,
+				181EBB2F799CD7B207452EA9 /* Pods */,
+				97A1AF3B36D476E2B7CC40C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +141,9 @@
 		D33ACDF820C0D78000D1907E /* festifind */ = {
 			isa = PBXGroup;
 			children = (
+				D3B7911E20C8A4F70075586A /* controllers */,
+				D33ACE2720C6630B00D1907E /* models */,
 				D33ACDF920C0D78000D1907E /* AppDelegate.swift */,
-				D33ACDFB20C0D78000D1907E /* ViewController.swift */,
 				D33ACDFD20C0D78000D1907E /* Main.storyboard */,
 				D33ACE0020C0D78600D1907E /* Assets.xcassets */,
 				D33ACE0220C0D78600D1907E /* LaunchScreen.storyboard */,
@@ -125,6 +170,23 @@
 			path = festifindUITests;
 			sourceTree = "<group>";
 		};
+		D33ACE2720C6630B00D1907E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D33ACE2820C6632100D1907E /* Festival.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D3B7911E20C8A4F70075586A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D33ACDFB20C0D78000D1907E /* ViewController.swift */,
+				D3B7911F20C8A51E0075586A /* MapViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D33ACE1E20C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifind" */;
 			buildPhases = (
+				CE7BEA1FAF9F6F424216B0C6 /* [CP] Check Pods Manifest.lock */,
 				D33ACDF220C0D78000D1907E /* Sources */,
 				D33ACDF320C0D78000D1907E /* Frameworks */,
 				D33ACDF420C0D78000D1907E /* Resources */,
+				FA201B655A5C8DAED9DA2118 /* [CP] Embed Pods Frameworks */,
+				78565463D9711ED46546B9B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D33ACE2120C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifindTests" */;
 			buildPhases = (
+				C49F25DFDEE5D8DDE32B0708 /* [CP] Check Pods Manifest.lock */,
 				D33ACE0620C0D78600D1907E /* Sources */,
 				D33ACE0720C0D78600D1907E /* Frameworks */,
 				D33ACE0820C0D78600D1907E /* Resources */,
+				64AE90FB389417003241DC66 /* [CP] Embed Pods Frameworks */,
+				3AB1EB1DB3DCDAF40021AB96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D33ACE2420C0D78600D1907E /* Build configuration list for PBXNativeTarget "festifindUITests" */;
 			buildPhases = (
+				43CD40E69C355FA3C22BD2EE /* [CP] Check Pods Manifest.lock */,
 				D33ACE1120C0D78600D1907E /* Sources */,
 				D33ACE1220C0D78600D1907E /* Frameworks */,
 				D33ACE1320C0D78600D1907E /* Resources */,
+				B229E0B489D58B6D1753C4A4 /* [CP] Embed Pods Frameworks */,
+				F3884AC1997FEBC864B8FAE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +322,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AB1EB1DB3DCDAF40021AB96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-festifindTests/Pods-festifindTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43CD40E69C355FA3C22BD2EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-festifindUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64AE90FB389417003241DC66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-festifindTests/Pods-festifindTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78565463D9711ED46546B9B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-festifind/Pods-festifind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B229E0B489D58B6D1753C4A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-festifindUITests/Pods-festifindUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C49F25DFDEE5D8DDE32B0708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-festifindTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7BEA1FAF9F6F424216B0C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-festifind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3884AC1997FEBC864B8FAE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-festifindUITests/Pods-festifindUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA201B655A5C8DAED9DA2118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-festifind/Pods-festifind-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-festifind/Pods-festifind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D33ACDF220C0D78000D1907E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +481,8 @@
 			files = (
 				D33ACDFC20C0D78000D1907E /* ViewController.swift in Sources */,
 				D33ACDFA20C0D78000D1907E /* AppDelegate.swift in Sources */,
+				D33ACE2920C6632100D1907E /* Festival.swift in Sources */,
+				D3B7912020C8A51E0075586A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +653,13 @@
 		};
 		D33ACE1F20C0D78600D1907E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A061FDBA70F5D62E90DC5E6B /* Pods-festifind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3A8MQQ56H;
 				INFOPLIST_FILE = festifind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +673,13 @@
 		};
 		D33ACE2020C0D78600D1907E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B5572F8BABF41E20527552 /* Pods-festifind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3A8MQQ56H;
 				INFOPLIST_FILE = festifind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +693,7 @@
 		};
 		D33ACE2220C0D78600D1907E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE564646555AF385D7D5A2C5 /* Pods-festifindTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +715,7 @@
 		};
 		D33ACE2320C0D78600D1907E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C366B9460939580B889DA7A4 /* Pods-festifindTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +737,7 @@
 		};
 		D33ACE2520C0D78600D1907E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FB437302860E100F7039C3 /* Pods-festifindUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +758,7 @@
 		};
 		D33ACE2620C0D78600D1907E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C224A58EC8C08C24727AF91 /* Pods-festifindUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
